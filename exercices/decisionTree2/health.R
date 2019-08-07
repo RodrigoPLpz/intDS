@@ -8,7 +8,7 @@ require(gmodels)
 # de la carpeta qe contiene el dataset
 dirh <- "C:\\Users\\mecat\\Desktop\\decisionTree2"
 # Se lee la base de datos y se asigana a la variable othf
-othf <- read.csv(paste(dirh,"all_data_R.csv", sep = "/"), stringsAsFactors = TRUE)
+othf <- read.csv(paste(dirh,"all_data_R.csv", sep = "/"), stringsAsFactors = FALSE)
 # Se verifica la estructura del dataset
 str(othf)
 #Eliminamos las columnas como el nombre del paciente, el mismo identificador de grupo,
